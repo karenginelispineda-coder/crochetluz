@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Crochet Luz · Hebras con amor, tejidas a mano para ti</title>
+  <meta name="description" content="Crochet Luz: bikinis, tops, vestidos, gorros, aretes, bolsos, decoración para el hogar y ramos de flores tejidos a mano en Buenaventura, Valle del Cauca. Cada pieza es única y hecha a pedido." />
+  <meta property="og:title" content="Crochet Luz · Hebras con amor" />
+  <meta property="og:description" content="Prendas y accesorios tejidos a mano, personalizados y hechos a pedido." />
+  <meta property="og:image" content="/img/logo-y-portada--portada.jpg" />
+  <link rel="icon" href="/img/logo-y-portada--logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <a class="skip" href="#catalogo">Saltar al catálogo</a>
+
+  <header class="topbar" id="top">
+    <a href="#top" class="brand" aria-label="Crochet Luz, inicio">
+      <img src="/img/logo-y-portada--logo.jpg" alt="" width="64" height="56" />
+      <span><small>Crochet</small>Luz</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="#catalogo">Catálogo</a>
+      <a href="#promo">Promoción</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#equipo">Equipo</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="topbar-actions">
+      <button class="cart-btn" id="cartOpen" aria-label="Abrir carrito">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1.2 11.2a2 2 0 0 1-2 1.8H8.2a2 2 0 0 1-2-1.8L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+        <span>Carrito</span>
+        <b id="cartCount">0</b>
+      </button>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav"><i></i><i></i></button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Hecho a mano · Buenaventura, Valle del Cauca</p>
+        <h1>Hebras con amor, <em>tejidas a mano</em> para ti</h1>
+        <p class="lema">“Escoge tu estilo y nosotros lo creamos para ti”</p>
+        <p class="intro">Crochet Luz es un emprendimiento artesanal que teje bikinis, tops, vestidos, gorros, aretes, decoración para el hogar y ramos de flores, siempre a pedido y con hilos de calidad. Sin producción en masa: cada pieza es única.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#catalogo">Ver el catálogo</a>
+          <a class="btn btn-ghost" href="https://wa.me/573174016270?text=Hola%20Crochet%20Luz%2C%20quiero%20hacer%20un%20pedido" target="_blank" rel="noopener">Escríbenos por WhatsApp</a>
+        </div>
+      </div>
+      <figure class="hero-art">
+        <img src="/img/logo-y-portada--portada.jpg" alt="Colección Crochet Luz: vestidos, bolsos, ramos de tulipanes y aretes tejidos" width="700" height="618" />
+        <figcaption class="stamp">Cada pieza<br/><strong>es única</strong></figcaption>
+      </figure>
+      <svg class="yarn yarn-hero" viewBox="0 0 1200 160" preserveAspectRatio="none" aria-hidden="true"><path d="M-10 120 C 200 40, 380 150, 600 90 S 980 20, 1210 70"/></svg>
+    </section>
+
+    <!-- VALORES -->
+    <section class="values" aria-label="Por qué Crochet Luz">
+      <article><span>01</span><h3>100% artesanal</h3><p>Cada prenda está tejida a mano con hilos de calidad, sin producción en masa.</p></article>
+      <article><span>02</span><h3>Personalización</h3><p>Tú eliges color, talla y diseño. Creamos prendas únicas según tu estilo.</p></article>
+      <article><span>03</span><h3>Variedad</h3><p>Bikinis, tops, vestidos, gorros, aretes, carteras y decoraciones del hogar.</p></article>
+      <article><span>04</span><h3>Precio justo</h3><p>Descuentos del 20% en el producto del mes y hasta 50% en la tercera unidad.</p></article>
+    </section>
+
+    <!-- CATALOGO -->
+    <section class="catalog" id="catalogo">
+      <header class="section-head">
+        <p class="eyebrow">Portafolio de productos</p>
+        <h2>Tejido a pedido, <em>a tu medida</em></h2>
+        <p>Todo se teje a pedido: elige color y talla, agrégalo al carrito y envíanos tu pedido por WhatsApp.</p>
+      </header>
+      <div class="filters" id="filters" role="tablist" aria-label="Categorías"></div>
+      <div class="grid" id="grid" aria-live="polite"></div>
+    </section>
+
+    <!-- PROMO -->
+    <section class="promo" id="promo">
+      <div class="promo-badge" aria-hidden="true"><span>25%</span><small>menos</small></div>
+      <div class="promo-copy">
+        <p class="tag">Edición limitada</p>
+        <h2>Set Sol de Playa</h2>
+        <p class="promo-desc">Un bikini tejido a tu medida, un gorro y unos aretes a juego, todos en la misma paleta de color que tú escojas. Además, bordamos tus iniciales en la prenda sin costo.</p>
+        <ul>
+          <li>Incluye: 1 bikini o top + 1 gorro + 1 par de aretes.</li>
+          <li>Colores y tallas a elección del cliente.</li>
+          <li>Vigencia: del 1 al 30 de noviembre de 2026.</li>
+          <li>No acumulable con otros descuentos.</li>
+        </ul>
+        <a class="btn btn-light" href="https://wa.me/573174016270?text=Hola%20Crochet%20Luz%2C%20me%20interesa%20el%20Set%20Sol%20de%20Playa%20(25%25%20menos)" target="_blank" rel="noopener">Quiero mi set</a>
+      </div>
+      <div class="promo-extra">
+        <div><h3>Descuento mensual</h3><p>En prendas seleccionadas para premiar tu fidelidad.</p></div>
+        <div><h3>Descuento por volumen</h3><p>Premiamos la compra de más de dos artículos.</p></div>
+      </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section class="about" id="nosotros">
+      <header class="section-head">
+        <p class="eyebrow">Quiénes somos</p>
+        <h2>Moda artesanal <em>frente a la moda rápida</em></h2>
+      </header>
+      <div class="about-grid">
+        <article class="mv">
+          <h3>Misión</h3>
+          <p>Crear prendas y accesorios tejidos a mano, personalizados y de calidad, que permitan a nuestras clientas expresar su estilo y valorar el trabajo artesanal frente a la moda rápida.</p>
+        </article>
+        <article class="mv">
+          <h3>Visión</h3>
+          <p>Ser en los próximos años una marca reconocida de moda artesanal sostenible, con presencia digital sólida, producción ampliada junto a una red de artesanas y entregas en todo el país.</p>
+        </article>
+      </div>
+      <h3 class="sub">Para quién tejemos</h3>
+      <div class="segments">
+        <article><h4>Mujeres jóvenes, 15–35 años</h4><p>Amantes de la moda, los accesorios y la ropa de playa artesanal y exclusiva.</p></article>
+        <article><h4>Madres de familia</h4><p>Buscan prendas únicas y de calidad para sus hijos pequeños.</p></article>
+        <article><h4>Moda sostenible</h4><p>Prefieren productos hechos a mano que valoran el trabajo artesanal frente al fast fashion.</p></article>
+      </div>
+    </section>
+
+    <!-- EQUIPO -->
+    <section class="team" id="equipo">
+      <header class="section-head">
+        <p class="eyebrow">Nuestro equipo</p>
+        <h2>Las manos <em>detrás de cada hebra</em></h2>
+      </header>
+      <div class="team-grid" id="team"></div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="contact" id="contacto">
+      <div class="contact-info">
+        <p class="eyebrow">Contacto</p>
+        <h2>Hablemos de <em>tu próxima pieza</em></h2>
+        <dl>
+          <div><dt>WhatsApp</dt><dd><a href="https://wa.me/573174016270" target="_blank" rel="noopener">317 401 6270</a></dd></div>
+          <div><dt>Correo</dt><dd><a href="mailto:crochetluz2@gmail.com">crochetluz2@gmail.com</a></dd></div>
+          <div><dt>Facebook</dt><dd>Crochet Luz</dd></div>
+          <div><dt>Ubicación</dt><dd>Buenaventura, Valle del Cauca</dd></div>
+          <div><dt>Horario</dt><dd>Lunes a sábado, 8:00 a. m. – 5:00 p. m.</dd></div>
+          <div><dt>Entregas</dt><dd>A domicilio o en un punto acordado contigo.</dd></div>
+        </dl>
+      </div>
+      <form class="contact-form" name="contacto" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="contactForm">
+        <input type="hidden" name="form-name" value="contacto" />
+        <p class="hp"><label>No llenar: <input name="bot-field" /></label></p>
+        <label>Nombre<input type="text" name="nombre" required autocomplete="name" /></label>
+        <label>Correo<input type="email" name="email" required autocomplete="email" /></label>
+        <label>Teléfono (opcional)<input type="tel" name="telefono" autocomplete="tel" /></label>
+        <label>¿Qué te gustaría que tejiéramos?<textarea name="mensaje" rows="5" required></textarea></label>
+        <button class="btn btn-primary" type="submit">Enviar mensaje</button>
+        <p class="form-status" id="formStatus" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <svg class="yarn yarn-foot" viewBox="0 0 1200 80" preserveAspectRatio="none" aria-hidden="true"><path d="M-10 50 C 260 0, 520 80, 760 36 S 1080 10, 1210 40"/></svg>
+    <p><strong>Crochet Luz</strong> · Hebras con Amor · Gracias por su atención</p>
+    <p class="small">© 2026 Crochet Luz · Buenaventura, Valle del Cauca</p>
+  </footer>
+
+  <!-- Product dialog -->
+  <dialog class="product-dialog" id="productDialog" aria-labelledby="pdName">
+    <form method="dialog" class="pd-close-wrap"><button class="pd-close" aria-label="Cerrar">×</button></form>
+    <div class="pd" id="pdBody"></div>
+  </dialog>
+
+  <!-- Cart drawer -->
+  <aside class="cart" id="cart" aria-label="Carrito" aria-hidden="true">
+    <div class="cart-head">
+      <h2>Tu carrito</h2>
+      <button class="pd-close" id="cartClose" aria-label="Cerrar carrito">×</button>
+    </div>
+    <ul class="cart-items" id="cartItems"></ul>
+    <div class="cart-foot">
+      <label class="cart-note">Nota para el pedido (opcional)<textarea id="cartNote" rows="2" placeholder="Ej: iniciales para bordar, medidas, fecha de entrega…"></textarea></label>
+      <p class="cart-total"><span>Total estimado</span><strong id="cartTotal">$0</strong></p>
+      <a class="btn btn-primary btn-block" id="cartSend" href="#" target="_blank" rel="noopener">Enviar pedido por WhatsApp</a>
+      <p class="small">Confirmamos detalles, tiempos de tejido y entrega por WhatsApp.</p>
+    </div>
+  </aside>
+  <div class="scrim" id="scrim"></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="/js/products.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>
